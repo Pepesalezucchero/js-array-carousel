@@ -1,0 +1,59 @@
+/*stili generali*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 50%;
+    margin: 200px auto;
+}
+
+.settings {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 355px;
+}
+
+.prova {
+    display: none;
+}
+
+.container img {
+    height: 355px;
+}
+
+.container i {
+    background-color: rgba(255, 255, 255, 0.644);
+    padding: 20px 5px 21px;
+    border-radius: 50%;
+}
+
+.container i:hover {
+    background-color: #fff;
+}
+
+.container .btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+.container .previous {
+    top: 10px;
+}
+
+.container .next {
+    bottom: 10px;
+}
+
+.settings .image {
+    display: none;
+}
+
+.settings .active {
+    display: block;
+}
